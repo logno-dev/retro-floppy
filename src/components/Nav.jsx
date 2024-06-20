@@ -7,7 +7,7 @@ export default function Nav() {
       ? "border-gray-200"
       : "border-transparent hover:border-gray-200";
   return (
-    <nav class="bg-purple-900 pixel flex justify-center top-0 sticky z-50">
+    <nav class="bg-purple-900 pixel flex justify-center top-0 left-0 right-[-8px] sticky z-50">
       <ul class="container flex items-center justify-center gap-3 p-3 text-xl text-gray-200">
         <li class={`border-2 p-1 ${active("/")}`}>
           <a href="/">Home</a>
